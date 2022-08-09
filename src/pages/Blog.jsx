@@ -1,16 +1,18 @@
 import PreviousSearches from "../components/PreviousSearches"
-import RecipeCard from "../components/RecipeCard"
+import RecipeCard from "../components/BlogCard"
 
 export default function Recipes(){
     const recipes = [
         {
-            title: "Pancakes",
+            title: "Terrible Twos",
             image: "/images/gallery/img_1.jpg",
+            body: "Terrible Two's we've all heard of it the ",
             authorImg: "/images/chefs/img_1.jpg",
         }, 
         {
-            title: "Club Sandwhich",
+            title: "Potty Training",
             image: "/images/gallery/img_2.jpg",
+            body: "Blah blah blah",
             authorImg: "/images/chefs/img_1.jpg",
         }, 
         {

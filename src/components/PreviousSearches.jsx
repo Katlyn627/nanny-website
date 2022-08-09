@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch } from "@fortawesome/free-solid-svg-icons"
 
 export default function PreviousSearches(){
-    const searches = ['pizza', 'hamburger', 'vegitarian', 'juices', 'italian', 'summer salads', 'ice cream', 'kosher', 'dessert', 'sandwhiches'] 
+    const searches = ['terrible tows', 'thumb sucking', 'sharing', 'toys', 'time-out', 'summer activities'] 
 
     
 
