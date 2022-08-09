@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Settings from "./pages/Settings";
 
 import SignupForm from "./components/SignupForm";
-import CalendlyIframe from "./components/Calendar";
+import Calendar from "./components/Calendar";
 
 
 
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/settings" element={<Settings />} />
-          <Route path="/calendly" element={<CalendlyIframe />} />
+          <Route path="/calendar" element={<Calendar />} />
           <Route path="/form" element={<SignupForm />} />
           
         </Routes>

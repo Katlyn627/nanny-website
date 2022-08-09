@@ -17,8 +17,8 @@ export default function Navbar(){
             icon: faHome
         },
         {
-            name: "Calendly",
-            path: "/calendly",
+            name: "Calendar",
+            path: "/calendar",
             icon: faCog
         },
         
