@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
  
 import {Header, Navigation} from './Layout/Layout';
 import Posts from './Posts';
-import SinglePost from './SinglePost';
+import SinglePost from './Singlepost';
 import Form from './Form';
 import EditPost from './EditPost';
  

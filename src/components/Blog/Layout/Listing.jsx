@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Post from './Post';
+import Post from '../Posts';
 import './Post.css';
  
 class Listing extends Component {
