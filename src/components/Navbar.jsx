@@ -23,7 +23,7 @@ export default function Navbar(){
         },
         {
             name: "Blog",
-            path: "/blog",
+            path: "/router",
             icon: faUserPlus
         },
         {

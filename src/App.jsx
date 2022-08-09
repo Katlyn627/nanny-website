@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/calendar" element={<Calendar />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/router" element={<Blog />} />
           <Route path="/form" element={<SignupForm />} />
           
         </Routes>
