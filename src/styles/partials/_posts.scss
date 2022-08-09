@@ -3,7 +3,8 @@ body {
     background-color: var(--background-color);
 }
 .posts-container {
-    display: flex;
+    display: grid;
+    padding: 0rem;
     justify-content: center;
     align-items: center;
 }

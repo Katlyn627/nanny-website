@@ -10,10 +10,7 @@ import Settings from "./pages/Settings";
 import SignupForm from "./components/SignupForm";
 import Calendar from "./components/Calendar";
 
-
-import Posts from "./components/Posts/Posts";
-
-
+import Recipes from "./pages/Blog";
 
 function App() {
   return (
@@ -24,7 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/calendar" element={<Calendar />} />
-          <Route path="/router" element={<Posts />} />
+          <Route path="/recipes" element={<Recipes />} />
           <Route path="/form" element={<SignupForm />} />
           
         </Routes>
