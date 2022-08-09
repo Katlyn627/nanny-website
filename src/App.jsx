@@ -9,7 +9,9 @@ import Settings from "./pages/Settings";
 
 import SignupForm from "./components/SignupForm";
 import Calendar from "./components/Calendar";
-import Blog from "./components/Router"
+
+
+import Posts from "./components/Posts/Posts";
 
 
 
@@ -22,7 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/calendar" element={<Calendar />} />
-          <Route path="/router" element={<Blog />} />
+          <Route path="/router" element={<Posts />} />
           <Route path="/form" element={<SignupForm />} />
           
         </Routes>
