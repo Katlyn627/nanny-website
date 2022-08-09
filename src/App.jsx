@@ -9,7 +9,7 @@ import Settings from "./pages/Settings";
 
 import SignupForm from "./components/SignupForm";
 import Calendar from "./components/Calendar";
-import Blog from "./components/Blog/Router"
+import Blog from "./components/Router"
 
 
 

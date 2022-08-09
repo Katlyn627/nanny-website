@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
  
-import {BrowserRouter, Route, Switch , Redirect} from 'react-router-dom';
+import {BrowserRouter, Route, Routes } from 'react-router-dom';
 import axios from 'axios';
 import Swal from 'sweetalert2';
  
@@ -100,7 +100,7 @@ class Router extends Component {
  
                         <Navigation />
  
-                        <Switch>
+                        <Routes>
                             <Route exact path="/" render={ () => {
                                 return(
                                     <Posts 
@@ -148,7 +148,7 @@ class Router extends Component {
                                     />
                                 )
                             }} />                            
-                        </Switch>
+                        </Routes>
                     </div>
                 </div>            
             </BrowserRouter>

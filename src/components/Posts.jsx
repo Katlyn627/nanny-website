@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Swal from 'sweetalert2';
-import '../../styles/index.scss';
+import '../styles/index.scss';
 import moment from 'moment';
 import Paper from '@material-ui/core/Paper';
 import Divider from '@material-ui/core/Divider';

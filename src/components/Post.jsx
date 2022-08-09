@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Listing from './Listing';
-import './Post.css';
+import '../styles/index.scss';
  
 class Posts extends Component {
     state = {  }
