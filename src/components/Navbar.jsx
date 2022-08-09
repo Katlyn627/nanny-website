@@ -21,7 +21,11 @@ export default function Navbar(){
             path: "/calendar",
             icon: faCog
         },
-        
+        {
+            name: "Blog",
+            path: "/blog",
+            icon: faUserPlus
+        },
         {
             name: "Signup",
             path: "/form",
